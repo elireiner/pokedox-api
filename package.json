@@ -5,9 +5,13 @@
   "scripts": {
     "start": "node server.js",
     "dev": "nodemon server.js",
+    "predeploy": "npm audit",
     "test": "mocha"
   },
   "keywords": [],
+  "engines": {
+    "node": "v12.13.1"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
